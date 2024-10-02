@@ -1,6 +1,15 @@
+---
+slug: Multipart-Form-data-response-parsing-in-Java-and-JavaScript
+title: Multipart Form-data response parsing in Java and JavaScript
+authors: [ilia]
+tags: [javascript,java,http,response,multipart-form-data]
+---
+
 # Multipart Form-data response parsing in Java and JavaScript
 
 In this article, I will show you how to implement an HTTP server that **replies with form-data** and how to parse it from the client. I will provide examples for the server in Node.js, using external libraries and native ones. For the client, I will show implementations in JS and Java.
+
+<!-- truncate -->
 
 I will illustrate cases where the parts are only text and a mix of text and binary data.
 
