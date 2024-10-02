@@ -1,19 +1,10 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: all things about JS
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+java:
+  label: Java
+  permalink: /java
+  description: all things about Java
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
