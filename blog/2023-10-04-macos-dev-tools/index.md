@@ -9,6 +9,8 @@ tags: [MacOS,javascript,java,tools]
 
 I cover the different tools I use on MacOS to facilitate and speed up my work as a software developer.
 
+<!-- truncate -->
+
 ## Terminal
 
 I use [iTerm2](https://iterm2.com/) as my terminal. It allows me to split my screen into multiple parts when I need to monitor multiple processes on a single screen. `CMD+D` and `CMD+Shift+D` for horizontal and vertical split respectively. One setting I always tweak is the [line buffer size](https://stackoverflow.com/questions/12459755/zsh-iterm2-increase-number-of-lines-history/28608448#28608448).
