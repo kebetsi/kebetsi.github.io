@@ -52,7 +52,7 @@ I use [nvm](https://github.com/nvm-sh/nvm) to work with multiple versions of Nod
 
 Switch between versions easily with `nvm use 18` and update your default with `nvm alias default 20`.
 
-## JavaScript/TypeScrypt IDE
+## JavaScript/TypeScript IDE
 
 As the majority of people, I use the [VS code](https://code.visualstudio.com/download) IDE for JS/TS.
 
