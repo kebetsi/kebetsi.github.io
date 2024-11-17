@@ -1,4 +1,8 @@
-# Website
+# My technical blog
+
+Visit [https://kebetsi.github.io](https://kebetsi.github.io).
+
+## Usage
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
