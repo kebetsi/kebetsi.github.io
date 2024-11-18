@@ -9,6 +9,8 @@ tags: [javascript,java,http,response,multipart-form-data]
 
 In this article, I will show you how to implement an HTTP server that **replies with form-data** and how to parse it from the client. I will provide examples for the server in Node.js, using external libraries and native ones. For the client, I will show implementations in JS and Java.
 
+All the presented code snippets can be found [here](https://github.com/kebetsi/kebetsi.github.io/tree/main/code-snippets/2024-09-16-form-data-response#code-snippets-from-multipart-form-data-post).
+
 <!-- truncate -->
 
 I will illustrate cases where the parts are only text and a mix of text and binary data.
