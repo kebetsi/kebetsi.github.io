@@ -13,6 +13,8 @@ On a work project, we needed to fix a concurrency issue where multiple processes
 
 To fix this issue, we have opted to use the Java [FileLock](https://docs.oracle.com/javase/8/docs/api/java/nio/channels/FileLock.html) that has been available since Java 1.4.
 
+<!-- truncate -->
+
 This allows for multiple processes, not threads, to synchronize by writing the lock into a file. If, like in my use case, you want to synchronize file writing, you should use a dedicated/separate file for locking. Using the file you intend to read or execute for locking will lead to it being corrupted, as the FileLock will modify it.
 
 Obtaining a FileLock requires creating a [FileOutputStream](https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html), obtaining a [FileChannel](https://docs.oracle.com/javase/8/docs/api/index.html?java/nio/channels/FileChannel.html) on it, and calling `FileChannnel.lock()` or `FileChannel.tryLock()`:
