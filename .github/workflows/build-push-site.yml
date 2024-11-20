@@ -19,8 +19,8 @@ jobs:
         cache: 'yarn'
     - name: Build site
       env:
-      - DEPLOYMENT_BRANCH=main
-      - GIT_USER=kebetsi
+        DEPLOYMENT_BRANCH: main
+        GIT_USER: kebetsi
       run: |
         yarn install --frozen-lockfile
         yarn deploy
