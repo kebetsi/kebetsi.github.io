@@ -173,7 +173,7 @@ This makes the mouse tracker invisible, but you are still be able to use it if n
 
 ## The result
 
-[Booting the Raspberry Pi directly into the game](https://www.youtube.com/watch?v=ZARZHkZeiZA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZARZHkZeiZA?si=tq9StkyvSq8QdeZJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Try the game
 
