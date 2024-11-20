@@ -56,6 +56,12 @@ const config: Config = {
     ],
   ],
 
+  scripts: [{
+    src: 'https://plausible.io/js/script.js',
+    defer: true,
+    'data-domain': 'kebetsi.github.io',
+  }],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
